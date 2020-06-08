@@ -1,0 +1,27 @@
+@import "header";
+@import "footer";
+
+body {
+  margin: 0 0 0 0;
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-content: space-around;
+}
+
+.ligne {
+  display: flex;
+  width: 100%;
+  align-content: space-between;
+}
+
+.menu {
+  display: inline-block;
+  width: 20%;
+  height: 30em;
+  background-color: grey;
+  box-shadow: 10px 5px 5px grey;
+}

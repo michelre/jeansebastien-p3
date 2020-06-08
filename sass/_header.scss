@@ -1,0 +1,16 @@
+@import "variables";
+
+.titre {
+  h1 {
+    color: $color-menu1;
+  }
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  background-color: #3cbf3c;
+  margin: 0;
+  display: inline-block;
+  font-size: 45px;
+  color: yellow;
+  text-align: center;
+}
