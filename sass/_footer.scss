@@ -3,5 +3,14 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: blue;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    .mentions {
+        display: flex;
+    }
+    .contact {
+        display: flex;
+    }
 }
