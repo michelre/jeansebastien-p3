@@ -1,12 +1,12 @@
 @import "variables";
 .titre {
     h1 {
-        color: $color-menu1;
+        color: $color-font;
     }
     width: 100%;
     display: flex;
     align-content: space-around;
-    background-color: #3cbf3c;
+    background-color: $color_menu1;
     margin: 0;
     display: inline-block;
     font-size: 45px;
