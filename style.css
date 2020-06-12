@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "perspective_sans_blackregular";
+  src: url("fonts/persanbk-webfont.eot");
+  src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sinkin_sans200_x_light";
+  src: url("fonts/SinkinSans-200XLight-webfont.eot");
+  src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sinkin_sans100_thin";
+  src: url("fonts/SinkinSans-100Thin-webfont.eot");
+  src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .titre {
   width: 100%;
   display: flex;
@@ -8,12 +29,41 @@
   font-size: 45px;
   color: yellow;
   text-align: center;
+  margin: 0 0 0 0;
+  padding: 10px 10px 10px 10px;
 }
 .titre h1 {
   color: #fdcd46;
+  margin: 0 0 0 0;
+}
+.titre a {
+  text-decoration: none;
 }
 
+@font-face {
+  font-family: "perspective_sans_blackregular";
+  src: url("fonts/persanbk-webfont.eot");
+  src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sinkin_sans200_x_light";
+  src: url("fonts/SinkinSans-200XLight-webfont.eot");
+  src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sinkin_sans100_thin";
+  src: url("fonts/SinkinSans-100Thin-webfont.eot");
+  src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .pieds {
+  font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -24,23 +74,47 @@
 }
 .pieds .mentions {
   display: flex;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 30px 10px 30px;
 }
 .pieds .mentions a {
   text-decoration: none;
   color: #fdcd46;
+  margin: 0 0 0 0;
 }
 .pieds .contact {
   display: flex;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 30px 10px 30px;
+  margin: 0 0 0 0;
 }
 .pieds .contact a {
   text-decoration: none;
   color: #fdcd46;
 }
 
+@font-face {
+  font-family: "perspective_sans_blackregular";
+  src: url("fonts/persanbk-webfont.eot");
+  src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sinkin_sans200_x_light";
+  src: url("fonts/SinkinSans-200XLight-webfont.eot");
+  src: url("fonts/SinkinSans-200XLight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-200XLight-webfont.woff2") format("woff2"), url("fonts/SinkinSans-200XLight-webfont.woff") format("woff"), url("fonts/SinkinSans-200XLight-webfont.ttf") format("truetype"), url("fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sinkin_sans100_thin";
+  src: url("fonts/SinkinSans-100Thin-webfont.eot");
+  src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0 0 0 0;
+  font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
@@ -48,6 +122,25 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .menus .new {
+    display: flex;
+    width: 50%;
+    color: #fdcd46;
+    background-color: #579c87;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 30px 30px 30px;
+    border-radius: 15px;
+    padding: 10px 0px 10px 0px;
+  }
+  .menus .new h3 {
+    margin: 0 0 0 0;
+    font-size: 30px;
   }
   .menus .ligne {
     display: flex;
@@ -105,6 +198,25 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.menus .new {
+  display: flex;
+  width: 15%;
+  color: #fdcd46;
+  background-color: #579c87;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 30px 30px 30px;
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 10px 0px 10px 0px;
+}
+.menus .new h3 {
+  margin: 0 0 0 0;
+  font-size: 30px;
 }
 .menus .ligne {
   display: flex;
@@ -118,6 +230,7 @@ body {
   background-color: lightgray;
   box-shadow: 10px 5px 5px grey;
   margin: 10px 40px 10px 40px;
+  padding-bottom: 10px;
 }
 .menus .ligne .menu a {
   display: flex;

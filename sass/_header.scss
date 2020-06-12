@@ -1,8 +1,5 @@
 @import "variables";
 .titre {
-    h1 {
-        color: $color-font;
-    }
     width: 100%;
     display: flex;
     align-content: space-around;
@@ -12,4 +9,13 @@
     font-size: 45px;
     color: yellow;
     text-align: center;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    h1 {
+        color: $color-font;
+        margin: 0 0 0 0;
+    }
+    a {
+        text-decoration: none;
+    }
 }
