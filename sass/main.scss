@@ -12,22 +12,19 @@
             flex-direction: column;
             width: 100%;
             margin-top: 100px;
-            padding-bottom: 50px;
+            padding-bottom: 120px;
             justify-content: center;
             align-items: center;
             .new {
                 display: flex;
-                width: 50%;
                 color: $color-font;
                 background-color: $color-menu1;
                 align-items: center;
                 justify-content: center;
-                margin: 30px 30px 30px 30px;
                 border-radius: 15px;
-                padding: 10px 0px 10px 0px;
+                padding: 10px;
                 h3 {
                     margin: 0 0 0 0;
-                    font-size: 30px;
                 }
             }
             .ligne {
@@ -44,6 +41,7 @@
                     background-color: lightgray;
                     box-shadow: 10px 5px 5px grey;
                     margin: 0px 40px 0px 40px;
+                    max-width: 300px;
                     a {
                         display: flex;
                         flex-direction: column;
@@ -57,31 +55,26 @@
                             display: flex;
                             width: 50%;
                             justify-content: center;
-                            max-width: 300px;
                         }
                         .menu2 {
                             display: flex;
                             width: 50%;
                             justify-content: center;
-                            max-width: 300px;
                         }
                         .menu3 {
                             display: flex;
                             width: 50%;
                             justify-content: center;
-                            max-width: 300px;
                         }
                         .menu4 {
                             display: flex;
                             width: 50%;
                             justify-content: center;
-                            max-width: 300px;
                         }
                         P {
                             display: flex;
                             width: 50%;
                             justify-content: center;
-                            max-width: 300px;
                             ;
                         }
                     }
@@ -94,20 +87,18 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding-bottom: 100px;
+        padding-bottom: 120px;
         justify-content: center;
         align-items: center;
         .new {
             display: flex;
-            width: 15%;
             color: $color-font;
             background-color: $color-menu1;
             align-items: center;
             justify-content: center;
-            margin: 30px 30px 30px 30px;
             border-radius: 15px;
-            font-size: 30px;
-            padding: 10px 0px 10px 0px;
+            padding: 10px 10px 10px 10px;
+            margin-top: 20px;
             h3 {
                 margin: 0 0 0 0;
                 font-size: 30px;

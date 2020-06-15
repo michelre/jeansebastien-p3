@@ -26,7 +26,7 @@
   background-color: #579c87;
   margin: 0;
   display: inline-block;
-  font-size: 45px;
+  font-size: 30px;
   color: yellow;
   text-align: center;
   margin: 0 0 0 0;
@@ -38,6 +38,11 @@
 }
 .titre a {
   text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .titre {
+    font-size: 45px;
+  }
 }
 
 @font-face {
@@ -123,24 +128,21 @@ body {
     flex-direction: column;
     width: 100%;
     margin-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     justify-content: center;
     align-items: center;
   }
   .menus .new {
     display: flex;
-    width: 50%;
     color: #fdcd46;
     background-color: #579c87;
     align-items: center;
     justify-content: center;
-    margin: 30px 30px 30px 30px;
     border-radius: 15px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
   }
   .menus .new h3 {
     margin: 0 0 0 0;
-    font-size: 30px;
   }
   .menus .ligne {
     display: flex;
@@ -157,6 +159,7 @@ body {
     background-color: lightgray;
     box-shadow: 10px 5px 5px grey;
     margin: 0px 40px 0px 40px;
+    max-width: 300px;
   }
   .menus .ligne .menu a {
     display: flex;
@@ -172,52 +175,45 @@ body {
     display: flex;
     width: 50%;
     justify-content: center;
-    max-width: 300px;
   }
   .menus .ligne .menu a .menu2 {
     display: flex;
     width: 50%;
     justify-content: center;
-    max-width: 300px;
   }
   .menus .ligne .menu a .menu3 {
     display: flex;
     width: 50%;
     justify-content: center;
-    max-width: 300px;
   }
   .menus .ligne .menu a .menu4 {
     display: flex;
     width: 50%;
     justify-content: center;
-    max-width: 300px;
   }
   .menus .ligne .menu a P {
     display: flex;
     width: 50%;
     justify-content: center;
-    max-width: 300px;
   }
 }
 .menus {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   justify-content: center;
   align-items: center;
 }
 .menus .new {
   display: flex;
-  width: 15%;
   color: #fdcd46;
   background-color: #579c87;
   align-items: center;
   justify-content: center;
-  margin: 30px 30px 30px 30px;
   border-radius: 15px;
-  font-size: 30px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
 }
 .menus .new h3 {
   margin: 0 0 0 0;
