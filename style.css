@@ -172,26 +172,31 @@ body {
     display: flex;
     width: 50%;
     justify-content: center;
+    max-width: 300px;
   }
   .menus .ligne .menu a .menu2 {
     display: flex;
     width: 50%;
     justify-content: center;
+    max-width: 300px;
   }
   .menus .ligne .menu a .menu3 {
     display: flex;
     width: 50%;
     justify-content: center;
+    max-width: 300px;
   }
   .menus .ligne .menu a .menu4 {
     display: flex;
     width: 50%;
     justify-content: center;
+    max-width: 300px;
   }
   .menus .ligne .menu a P {
     display: flex;
     width: 50%;
     justify-content: center;
+    max-width: 300px;
   }
 }
 .menus {
