@@ -6,83 +6,6 @@
         font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
     }
     
-    @media screen and (max-width: 1024px) {
-        .menus {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin-top: 100px;
-            padding-bottom: 120px;
-            justify-content: center;
-            align-items: center;
-            .new {
-                display: flex;
-                color: $color-font;
-                background-color: $color-menu1;
-                align-items: center;
-                justify-content: center;
-                border-radius: 15px;
-                padding: 10px;
-                h3 {
-                    margin: 0 0 0 0;
-                }
-            }
-            .ligne {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 0px 0px 0px 0px;
-                .menu {
-                    display: flex;
-                    justify-content: center;
-                    width: 25em;
-                    height: 30em;
-                    background-color: lightgray;
-                    box-shadow: 10px 5px 5px grey;
-                    margin: 0px 40px 0px 40px;
-                    max-width: 300px;
-                    a {
-                        display: flex;
-                        flex-direction: column;
-                        text-decoration: none;
-                        color: black;
-                        height: 100%;
-                        width: 100%;
-                        justify-content: center;
-                        align-items: center;
-                        .menu1 {
-                            display: flex;
-                            width: 50%;
-                            justify-content: center;
-                        }
-                        .menu2 {
-                            display: flex;
-                            width: 50%;
-                            justify-content: center;
-                        }
-                        .menu3 {
-                            display: flex;
-                            width: 50%;
-                            justify-content: center;
-                        }
-                        .menu4 {
-                            display: flex;
-                            width: 50%;
-                            justify-content: center;
-                        }
-                        P {
-                            display: flex;
-                            width: 50%;
-                            justify-content: center;
-                            ;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
     .menus {
         display: flex;
         flex-direction: column;
@@ -150,6 +73,122 @@
                         width: 50%;
                         justify-content: center;
                         ;
+                    }
+                }
+            }
+        }
+    }
+    
+    .titre__menu {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .parti_menu {
+        width: 40em;
+        display: flex;
+        flex-direction: column;
+        h2 {
+            display: flex;
+            justify-content: center;
+        }
+        p {
+            margin: 1em 1em 0 1em;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    ._dessert {
+        margin-bottom: 125px;
+    }
+    
+    .platprix {
+        display: flex;
+        justify-content: space-between;
+        .nom_plat {
+            display: flex;
+            p {
+                margin: 1em 1em 0 1em;
+            }
+        }
+        .prix {
+            display: flex;
+            margin-top: 1em;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .menus {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 100px;
+            padding-bottom: 120px;
+            justify-content: center;
+            align-items: center;
+            .new {
+                display: flex;
+                color: $color-font;
+                background-color: $color-menu1;
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                padding: 10px;
+                h3 {
+                    margin: 0 0 0 0;
+                }
+            }
+            .ligne {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 0px 0px 0px;
+                .menu {
+                    display: flex;
+                    justify-content: center;
+                    width: 25em;
+                    height: 30em;
+                    background-color: lightgray;
+                    box-shadow: 10px 5px 5px grey;
+                    margin: 10px 40px 20px 40px;
+                    max-width: 300px;
+                    a {
+                        display: flex;
+                        flex-direction: column;
+                        text-decoration: none;
+                        color: black;
+                        height: 100%;
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+                        .menu1 {
+                            display: flex;
+                            width: 50%;
+                            justify-content: center;
+                        }
+                        .menu2 {
+                            display: flex;
+                            width: 50%;
+                            justify-content: center;
+                        }
+                        .menu3 {
+                            display: flex;
+                            width: 50%;
+                            justify-content: center;
+                        }
+                        .menu4 {
+                            display: flex;
+                            width: 50%;
+                            justify-content: center;
+                        }
+                        P {
+                            display: flex;
+                            width: 50%;
+                            justify-content: center;
+                            ;
+                        }
                     }
                 }
             }

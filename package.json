@@ -1,23 +1,23 @@
 {
-  "name": "oc_p3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "sass": "sass --watch sass/main.scss style.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeansebastien-bouquin/oc_p3.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeansebastien-bouquin/oc_p3/issues"
-  },
-  "homepage": "https://github.com/jeansebastien-bouquin/oc_p3#readme",
-  "devDependencies": {
-    "sass": "^1.26.8"
-  }
+    "name": "oc_p3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch sass/main.scss style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeansebastien-bouquin/oc_p3.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jeansebastien-bouquin/oc_p3/issues"
+    },
+    "homepage": "https://github.com/jeansebastien-bouquin/oc_p3#readme",
+    "devDependencies": {
+        "sass": "^1.26.8"
+    }
 }

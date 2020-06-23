@@ -122,81 +122,6 @@ body {
   font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
-  .menus {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 100px;
-    padding-bottom: 120px;
-    justify-content: center;
-    align-items: center;
-  }
-  .menus .new {
-    display: flex;
-    color: #fdcd46;
-    background-color: #579c87;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    padding: 10px;
-  }
-  .menus .new h3 {
-    margin: 0 0 0 0;
-  }
-  .menus .ligne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 0px 0px;
-  }
-  .menus .ligne .menu {
-    display: flex;
-    justify-content: center;
-    width: 25em;
-    height: 30em;
-    background-color: lightgray;
-    box-shadow: 10px 5px 5px grey;
-    margin: 0px 40px 0px 40px;
-    max-width: 300px;
-  }
-  .menus .ligne .menu a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: black;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  .menus .ligne .menu a .menu1 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a .menu2 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a .menu3 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a .menu4 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a P {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-}
 .menus {
   display: flex;
   flex-direction: column;
@@ -267,6 +192,121 @@ body {
   display: flex;
   width: 50%;
   justify-content: center;
+}
+
+.titre__menu {
+  display: flex;
+  justify-content: center;
+}
+
+.parti_menu {
+  width: 40em;
+  display: flex;
+  flex-direction: column;
+}
+.parti_menu h2 {
+  display: flex;
+  justify-content: center;
+}
+.parti_menu p {
+  margin: 1em 1em 0 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+._dessert {
+  margin-bottom: 125px;
+}
+
+.platprix {
+  display: flex;
+  justify-content: space-between;
+}
+.platprix .nom_plat {
+  display: flex;
+}
+.platprix .nom_plat p {
+  margin: 1em 1em 0 1em;
+}
+.platprix .prix {
+  display: flex;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .menus {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+  .menus .new {
+    display: flex;
+    color: #fdcd46;
+    background-color: #579c87;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .menus .new h3 {
+    margin: 0 0 0 0;
+  }
+  .menus .ligne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .menus .ligne .menu {
+    display: flex;
+    justify-content: center;
+    width: 25em;
+    height: 30em;
+    background-color: lightgray;
+    box-shadow: 10px 5px 5px grey;
+    margin: 10px 40px 20px 40px;
+    max-width: 300px;
+  }
+  .menus .ligne .menu a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .menus .ligne .menu a .menu1 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .menus .ligne .menu a .menu2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .menus .ligne .menu a .menu3 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .menus .ligne .menu a .menu4 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .menus .ligne .menu a P {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
