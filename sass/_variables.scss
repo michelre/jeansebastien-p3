@@ -26,20 +26,39 @@ $color-menu1: #579c87;
 $color-font: #fdcd46;
 $color_menu_1: #3D1319;
 $color_fond_1: #FDE0DC;
+@mixin gradient_menu1 {
+    background: linear-gradient(#F04C5F, #F6916A);
+}
 
-/* background: linear-gradient(#F04C5F, #F6916A); */
+
+/* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
 
 $color-menu_2: #FFF5FE;
 $color_menu_22: #B55AA2;
 $color_menu_23: #6E4CCC;
+$color_menu_24:#C77412;
+@mixin gradient_menu2 {
+    background: linear-gradient(to right, #8F5AFF 0%, #F9B09A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-/* background: linear-gradient(#8F5AFF, #F9B09A); */
+
+/* MIxin et couleur pour le menu 2 internes et externe*/
 
 $color_fond_3: #EDEFEF;
+@mixin gradient_menu3 {
+    background: linear-gradient(90deg, #0022DB, #0889FB);
+}
 
-/* background: linear-gradient(#0022DB, #0889FB); */
+
+/* COuleur et mixin pour le menu 3  */
 
 $color_menu_4: #72BF56;
 $color_fond_4: #FDFFFD;
+@mixin gradient_menu4 {
+    background: linear-gradient(#479C40, #BEFF7F);
+}
 
-/* background: linear-gradient(#479C40, #BEFF7F); */
+
+/*mixins et couleur pour menu 4 */

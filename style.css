@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "perspective_sans_blackregular";
   src: url("fonts/persanbk-webfont.eot");
@@ -19,10 +20,10 @@
   font-weight: normal;
   font-style: normal;
 }
-/* background: linear-gradient(#F04C5F, #F6916A); */
-/* background: linear-gradient(#8F5AFF, #F9B09A); */
-/* background: linear-gradient(#0022DB, #0889FB); */
-/* background: linear-gradient(#479C40, #BEFF7F); */
+/* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
+/* MIxin et couleur pour le menu 2 internes et externe*/
+/* COuleur et mixin pour le menu 3  */
+/*mixins et couleur pour menu 4 */
 .titre {
   width: 100%;
   display: flex;
@@ -70,10 +71,10 @@
   font-weight: normal;
   font-style: normal;
 }
-/* background: linear-gradient(#F04C5F, #F6916A); */
-/* background: linear-gradient(#8F5AFF, #F9B09A); */
-/* background: linear-gradient(#0022DB, #0889FB); */
-/* background: linear-gradient(#479C40, #BEFF7F); */
+/* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
+/* MIxin et couleur pour le menu 2 internes et externe*/
+/* COuleur et mixin pour le menu 3  */
+/*mixins et couleur pour menu 4 */
 .pieds {
   font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -125,10 +126,10 @@
   font-weight: normal;
   font-style: normal;
 }
-/* background: linear-gradient(#F04C5F, #F6916A); */
-/* background: linear-gradient(#8F5AFF, #F9B09A); */
-/* background: linear-gradient(#0022DB, #0889FB); */
-/* background: linear-gradient(#479C40, #BEFF7F); */
+/* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
+/* MIxin et couleur pour le menu 2 internes et externe*/
+/* COuleur et mixin pour le menu 3  */
+/*mixins et couleur pour menu 4 */
 body {
   margin: 0 0 0 0;
   font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
@@ -160,12 +161,32 @@ body {
   display: flex;
   justify-content: center;
 }
+.menus .ligne .menu--first {
+  background-color: #FDE0DC;
+}
+.menus .ligne .menu--first a {
+  color: #3D1319;
+}
+.menus .ligne .menu--second {
+  background-color: #FFF5FE;
+}
+.menus .ligne .menu--second p {
+  background: linear-gradient(to right, #8F5AFF 0%, #F9B09A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menus .ligne .menu--second .menu2 {
+  color: #C77412;
+}
+.menus .ligne .menu-third {
+  background-color: #EDEFEF;
+}
 .menus .ligne .menu {
   display: flex;
   justify-content: center;
   width: 25em;
   height: 30em;
-  background-color: lightgray;
+  /*background-color: $color_fond_1;*/
   box-shadow: 10px 5px 5px grey;
   margin: 10px 40px 10px 40px;
   padding-bottom: 10px;
@@ -174,7 +195,6 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: black;
   height: 100%;
   width: 100%;
   justify-content: center;
@@ -184,6 +204,8 @@ body {
   display: flex;
   width: 50%;
   justify-content: center;
+  color: #3D1319;
+  background-color: #FDE0DC;
 }
 .menus .ligne .menu a .menu2 {
   display: flex;
@@ -245,80 +267,81 @@ body {
   margin-top: 1em;
 }
 
-@media screen and (max-width: 1024px) {
-  .menus {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 100px;
-    padding-bottom: 120px;
-    justify-content: center;
-    align-items: center;
-  }
-  .menus .new {
-    display: flex;
-    color: #fdcd46;
-    background-color: #579c87;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    padding: 10px;
-  }
-  .menus .new h3 {
-    margin: 0 0 0 0;
-  }
-  .menus .ligne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 0px 0px;
-  }
-  .menus .ligne .menu {
-    display: flex;
-    justify-content: center;
-    width: 25em;
-    height: 30em;
-    background-color: lightgray;
-    box-shadow: 10px 5px 5px grey;
-    margin: 10px 40px 20px 40px;
-    max-width: 300px;
-  }
-  .menus .ligne .menu a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: black;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  .menus .ligne .menu a .menu1 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a .menu2 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a .menu3 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a .menu4 {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-  .menus .ligne .menu a P {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-  }
-}
+/*@media screen and (max-width: 1024px) {
+    .menus {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        padding-bottom: 120px;
+        justify-content: center;
+        align-items: center;
+        .new {
+            display: flex;
+            color: $color-font;
+            background-color: $color-menu1;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            padding: 10px;
+            h3 {
+                margin: 0 0 0 0;
+            }
+        }
+        .ligne {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 0px 0px 0px;
+            .menu {
+                display: flex;
+                justify-content: center;
+                width: 25em;
+                height: 30em;
+                background-color: lightgray;
+                box-shadow: 10px 5px 5px grey;
+                margin: 10px 40px 20px 40px;
+                max-width: 300px;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                    color: black;
+                    height: 100%;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    .menu1 {
+                        display: flex;
+                        width: 50%;
+                        justify-content: center;
+                    }
+                    .menu2 {
+                        display: flex;
+                        width: 50%;
+                        justify-content: center;
+                    }
+                    .menu3 {
+                        display: flex;
+                        width: 50%;
+                        justify-content: center;
+                    }
+                    .menu4 {
+                        display: flex;
+                        width: 50%;
+                        justify-content: center;
+                    }
+                    P {
+                        display: flex;
+                        width: 50%;
+                        justify-content: center;
+                        ;
+                    }
+                }
+            }
+        }
+    }
+}*/
 
 /*# sourceMappingURL=style.css.map */
