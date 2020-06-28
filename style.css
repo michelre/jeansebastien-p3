@@ -19,6 +19,10 @@
   font-weight: normal;
   font-style: normal;
 }
+/* background: linear-gradient(#F04C5F, #F6916A); */
+/* background: linear-gradient(#8F5AFF, #F9B09A); */
+/* background: linear-gradient(#0022DB, #0889FB); */
+/* background: linear-gradient(#479C40, #BEFF7F); */
 .titre {
   width: 100%;
   display: flex;
@@ -66,6 +70,10 @@
   font-weight: normal;
   font-style: normal;
 }
+/* background: linear-gradient(#F04C5F, #F6916A); */
+/* background: linear-gradient(#8F5AFF, #F9B09A); */
+/* background: linear-gradient(#0022DB, #0889FB); */
+/* background: linear-gradient(#479C40, #BEFF7F); */
 .pieds {
   font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -117,6 +125,10 @@
   font-weight: normal;
   font-style: normal;
 }
+/* background: linear-gradient(#F04C5F, #F6916A); */
+/* background: linear-gradient(#8F5AFF, #F9B09A); */
+/* background: linear-gradient(#0022DB, #0889FB); */
+/* background: linear-gradient(#479C40, #BEFF7F); */
 body {
   margin: 0 0 0 0;
   font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
