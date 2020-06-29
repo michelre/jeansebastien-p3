@@ -1,5 +1,29 @@
 @charset "UTF-8";
 @font-face {
+  font-family: "croissant_oneregular";
+  src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "flow_extregular";
+  src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "flow_extbold";
+  src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "perspective_sans_blackregular";
   src: url("fonts/persanbk-webfont.eot");
   src: url("fonts/persanbk-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/persanbk-webfont.woff2") format("woff2"), url("fonts/persanbk-webfont.woff") format("woff"), url("fonts/persanbk-webfont.ttf") format("truetype"), url("fonts/persanbk-webfont.svg#perspective_sans_blackregular") format("svg");
@@ -50,6 +74,30 @@
   }
 }
 
+@font-face {
+  font-family: "croissant_oneregular";
+  src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "flow_extregular";
+  src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "flow_extbold";
+  src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "perspective_sans_blackregular";
   src: url("fonts/persanbk-webfont.eot");
@@ -105,6 +153,30 @@
   color: #fdcd46;
 }
 
+@font-face {
+  font-family: "croissant_oneregular";
+  src: url("fonts/croissantone-regular-webfont.woff2") format("woff2"), url("fonts/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "flow_extregular";
+  src: url("fonts/flow/flow-webfont.woff2") format("woff2"), url("fonts/flow/flow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "flow_extbold";
+  src: url("fonts/flow/flow_b-webfont.woff2") format("woff2"), url("fonts/flow/flow_b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "devonshireregular";
+  src: url("fonts/devonshire/devonshire-regular-webfont.woff2") format("woff2"), url("fonts/devonshire/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "perspective_sans_blackregular";
   src: url("fonts/persanbk-webfont.eot");
@@ -164,22 +236,50 @@ body {
 .menus .ligne .menu--first {
   background-color: #FDE0DC;
 }
-.menus .ligne .menu--first a {
+.menus .ligne .menu--first p {
   color: #3D1319;
+  font-family: "devonshireregular";
+  font-size: 25px;
+}
+.menus .ligne .menu--first .menu1 {
+  font-family: "flow_extbold";
+  font-weight: bolder;
+  font-size: 30px;
 }
 .menus .ligne .menu--second {
   background-color: #FFF5FE;
 }
 .menus .ligne .menu--second p {
-  background: linear-gradient(to right, #8F5AFF 0%, #F9B09A 100%);
+  background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "croissant_oneregular";
+  font-size: 17px;
 }
 .menus .ligne .menu--second .menu2 {
   color: #C77412;
 }
-.menus .ligne .menu-third {
+.menus .ligne .menu--third {
   background-color: #EDEFEF;
+}
+.menus .ligne .menu--third p {
+  background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menus .ligne .menu--third .menu3 {
+  color: #0889FB;
+}
+.menus .ligne .menu--fourth {
+  background-color: #FDFFFD;
+}
+.menus .ligne .menu--fourth p {
+  background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menus .ligne .menu--fourth .menu4 {
+  color: #72BF56;
 }
 .menus .ligne .menu {
   display: flex;
@@ -187,7 +287,7 @@ body {
   width: 25em;
   height: 30em;
   /*background-color: $color_fond_1;*/
-  box-shadow: 10px 5px 5px grey;
+  box-shadow: 1px 1px 12px grey;
   margin: 10px 40px 10px 40px;
   padding-bottom: 10px;
 }
