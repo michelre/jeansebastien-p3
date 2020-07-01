@@ -132,6 +132,8 @@
         width: 40em;
         display: flex;
         flex-direction: column;
+        max-width: 700px;
+        margin: auto;
         h2 {
             display: flex;
             justify-content: center;
@@ -143,8 +145,13 @@
         }
     }
     
-    ._dessert {
-        margin-bottom: 125px;
+    .container {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .parti_menu--dessert {
+        padding-bottom: 125px;
     }
     
     .platprix {
@@ -152,17 +159,28 @@
         justify-content: space-between;
         .nom_plat {
             display: flex;
+            width: 100%;
             p {
                 margin: 1em 1em 0 1em;
+                width: 80%;
             }
         }
         .prix {
             display: flex;
             margin-top: 1em;
+            min-width: 10%;
         }
     }
-    /*@media screen and (max-width: 1024px) {
+    /* DEVELOPPEMENT MOBILE*/
+    
+    @media screen and (max-width: 1024px) {
         .menus {
+            .ligne {
+                flex-wrap: wrap;
+            }
+        }
+    }
+    /*  .menus {
             display: flex;
             flex-direction: column;
             width: 100%;
