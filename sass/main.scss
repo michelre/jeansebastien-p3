@@ -76,7 +76,7 @@
             .menu {
                 display: flex;
                 justify-content: center;
-                width: 25em;
+                width: 45%;
                 height: 30em;
                 /*background-color: $color_fond_1;*/
                 box-shadow: 1px 1px 12px grey;
@@ -129,7 +129,6 @@
     }
     
     .parti_menu {
-        width: 40em;
         display: flex;
         flex-direction: column;
         max-width: 700px;
@@ -174,6 +173,10 @@
     /* DEVELOPPEMENT MOBILE*/
     
     @media screen and (max-width: 1024px) {
+        .container {
+            width: 90%;
+            margin: auto;
+        }
         .menus {
             .ligne {
                 flex-wrap: wrap;
