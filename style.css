@@ -240,6 +240,10 @@ body {
 .menus .ligne .menu--first {
   background-color: #FDE0DC;
 }
+.menus .ligne .menu--first .note {
+  transform: scale(0.6);
+  margin: auto;
+}
 .menus .ligne .menu--first p {
   color: #3D1319;
   font-family: "devonshireregular";
@@ -288,7 +292,7 @@ body {
 .menus .ligne .menu {
   display: flex;
   justify-content: center;
-  width: 45%;
+  width: 400px;
   height: 30em;
   /*background-color: $color_fond_1;*/
   box-shadow: 1px 1px 12px grey;
@@ -342,6 +346,18 @@ body {
   flex-direction: column;
   max-width: 700px;
   margin: auto;
+  /*barretitre1*/
+}
+.parti_menu .barrtitre {
+  justify-content: space-evenly;
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+}
+.parti_menu .barrtitre .barre {
+  display: block;
+  max-height: 6px;
+  margin-top: 30px;
 }
 .parti_menu h2 {
   display: flex;
@@ -355,11 +371,19 @@ body {
 
 .container {
   width: 50%;
-  margin: auto;
+  margin: 40px auto 100px auto;
+  background-color: #FDE0DC;
+  max-width: 800px;
 }
 
 .parti_menu--dessert {
   padding-bottom: 125px;
+}
+
+.notetitre {
+  margin: auto;
+  display: block;
+  transform: scale(0.7);
 }
 
 .platprix {
@@ -381,7 +405,7 @@ body {
 }
 
 /* DEVELOPPEMENT MOBILE*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 90%;
     margin: auto;
@@ -389,6 +413,10 @@ body {
 
   .menus .ligne {
     flex-wrap: wrap;
+  }
+
+  .menu {
+    width: 300px;
   }
 }
 /*  .menus {
