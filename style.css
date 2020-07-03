@@ -242,7 +242,7 @@ body {
 }
 .menus .ligne .menu--first .note {
   transform: scale(0.6);
-  margin: auto;
+  margin: 0 auto 0 auto;
 }
 .menus .ligne .menu--first p {
   color: #3D1319;
@@ -279,7 +279,7 @@ body {
   color: #0889FB;
 }
 .menus .ligne .menu--fourth {
-  background-color: #FDFFFD;
+  background-color: #fbfffb;
 }
 .menus .ligne .menu--fourth p {
   background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
@@ -345,8 +345,6 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 700px;
-  margin: auto;
-  /*barretitre1*/
 }
 .parti_menu .barrtitre {
   justify-content: space-evenly;
@@ -358,6 +356,8 @@ body {
   display: block;
   max-height: 6px;
   margin-top: 30px;
+  max-width: 100%;
+  height: auto;
 }
 .parti_menu h2 {
   display: flex;
@@ -372,18 +372,46 @@ body {
 .container {
   width: 50%;
   margin: 40px auto 100px auto;
-  background-color: #FDE0DC;
   max-width: 800px;
 }
 
+.container--menu1 {
+  background-color: #FDE0DC;
+}
+
+.container--menu2 {
+  background-color: #FFF5FE;
+}
+
+.container--menu3 {
+  background-color: #EDEFEF;
+}
+
+.container--menu4 {
+  background-color: #fbfffb;
+}
+
 .parti_menu--dessert {
-  padding-bottom: 125px;
+  padding-bottom: 10px;
 }
 
 .notetitre {
   margin: auto;
   display: block;
   transform: scale(0.7);
+}
+
+.pieds--menu {
+  display: flex;
+  align-items: center;
+}
+.pieds--menu .notetitre2 {
+  margin: 20px 5px 20px auto;
+  display: block;
+  transform: scale(0.5);
+}
+.pieds--menu .titre__menu2 {
+  margin: 20px auto 20px 5px;
 }
 
 .platprix {

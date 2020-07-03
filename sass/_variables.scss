@@ -86,7 +86,7 @@ $color_font_3: #0889FB;
 /* COuleur et mixin pour le menu 3  */
 
 $color_menu_4: #72BF56;
-$color_fond_4: #FDFFFD;
+$color_fond_4: #fbfffb;
 @mixin gradient_menu4 {
     background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
     -webkit-background-clip: text;
