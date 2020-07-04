@@ -44,6 +44,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "dancing_script_otregular";
+  src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "serif12_betabold";
+  src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
@@ -126,6 +138,18 @@
   font-family: "sinkin_sans100_thin";
   src: url("fonts/SinkinSans-100Thin-webfont.eot");
   src: url("fonts/SinkinSans-100Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/SinkinSans-100Thin-webfont.woff2") format("woff2"), url("fonts/SinkinSans-100Thin-webfont.woff") format("woff"), url("fonts/SinkinSans-100Thin-webfont.ttf") format("truetype"), url("fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "dancing_script_otregular";
+  src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "serif12_betabold";
+  src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -226,6 +250,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "dancing_script_otregular";
+  src: url("fonts/dancingscript/dancingscript-regular-webfont.woff2") format("woff2"), url("fonts/dancingscript/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "serif12_betabold";
+  src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
@@ -299,6 +335,9 @@ body {
 }
 .menus .ligne .menu--second .menu2 {
   color: #C77412;
+  font-family: "serif12_betabold";
+  font-weight: bolder;
+  font-size: xx-large;
 }
 .menus .ligne .menu--third {
   background-color: #EDEFEF;
@@ -307,9 +346,14 @@ body {
   background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "dancing_script_otregular";
+  font-size: 25px;
+  font-weight: bold;
 }
 .menus .ligne .menu--third .menu3 {
   color: #0889FB;
+  font-family: "flow_extbold";
+  font-size: 35px;
 }
 .menus .ligne .menu--fourth {
   background-color: #fbfffb;

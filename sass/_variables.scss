@@ -50,6 +50,20 @@
      font-style: normal;
  }
  
+ @font-face {
+     font-family: 'dancing_script_otregular';
+     src: url('fonts/dancingscript/dancingscript-regular-webfont.woff2') format('woff2'), url('fonts/dancingscript/dancingscript-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'serif12_betabold';
+     src: url('fonts\Serif12 beta boldserif12beta-bold-webfont.woff2') format('woff2'), url('fonts\Serif12 beta boldserif12beta-bold-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
  $color-menu1: #579c87;
  $color-font: #fdcd46;
  $color_menu_1: #3D1319;

@@ -57,15 +57,23 @@
                 }
                 .menu2 {
                     color: $color_menu_24;
+                    font-family: 'serif12_betabold';
+                    font-weight: bolder;
+                    font-size: xx-large;
                 }
             }
             .menu--third {
                 background-color: $color_fond_3;
                 p {
                     @include gradient_menu3;
+                    font-family: 'dancing_script_otregular';
+                    font-size: 25px;
+                    font-weight: bold;
                 }
                 .menu3 {
                     color: $color_font_3;
+                    font-family: 'flow_extbold';
+                    font-size: 35px;
                 }
             }
             .menu--fourth {
