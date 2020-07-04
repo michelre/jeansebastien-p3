@@ -1,125 +1,116 @@
-@font-face {
-    font-family: 'croissant_oneregular';
-    src: url('fonts/croissantone-regular-webfont.woff2') format('woff2'), url('fonts/croissantone-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'flow_extregular';
-    src: url('fonts/flow/flow-webfont.woff2') format('woff2'), url('fonts/flow/flow-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'flow_extbold';
-    src: url('fonts/flow/flow_b-webfont.woff2') format('woff2'), url('fonts/flow/flow_b-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'devonshireregular';
-    src: url('fonts/devonshire/devonshire-regular-webfont.woff2') format('woff2'), url('fonts/devonshire/devonshire-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'perspective_sans_blackregular';
-    src: url('fonts/persanbk-webfont.eot');
-    src: url('fonts/persanbk-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/persanbk-webfont.woff2') format('woff2'), url('fonts/persanbk-webfont.woff') format('woff'), url('fonts/persanbk-webfont.ttf') format('truetype'), url('fonts/persanbk-webfont.svg#perspective_sans_blackregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sinkin_sans200_x_light';
-    src: url('fonts/SinkinSans-200XLight-webfont.eot');
-    src: url('fonts/SinkinSans-200XLight-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/SinkinSans-200XLight-webfont.woff2') format('woff2'), url('fonts/SinkinSans-200XLight-webfont.woff') format('woff'), url('fonts/SinkinSans-200XLight-webfont.ttf') format('truetype'), url('fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sinkin_sans100_thin';
-    src: url('fonts/SinkinSans-100Thin-webfont.eot');
-    src: url('fonts/SinkinSans-100Thin-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/SinkinSans-100Thin-webfont.woff2') format('woff2'), url('fonts/SinkinSans-100Thin-webfont.woff') format('woff'), url('fonts/SinkinSans-100Thin-webfont.ttf') format('truetype'), url('fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-$color-menu1: #579c87;
-$color-font: #fdcd46;
-$color_menu_1: #3D1319;
-$color_fond_1: #FDE0DC;
-@mixin gradient_menu1 {
-    background: linear-gradient(#F04C5F, #F6916A);
-}
-
-
-/* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
-
-$color-menu_2: #FFF5FE;
-$color_menu_22: #B55AA2;
-$color_menu_23: #6E4CCC;
-$color_menu_24:#C77412;
-@mixin gradient_menu2 {
-    background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-/* MIxin et couleur pour le menu 2 internes et externe*/
-
-$color_fond_3: #EDEFEF;
-$color_font_3: #0889FB;
-@mixin gradient_menu3 {
-    background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-/* COuleur et mixin pour le menu 3  */
-
-$color_menu_4: #72BF56;
-$color_fond_4: #fbfffb;
-@mixin gradient_menu4 {
-    background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-/*mixins et couleur pour menu 4 */
-
-
-/* mixin animation*/
-
-@mixin Grow {
-     :hover {
-        transform: scale(1.25);
-    }
-}
-
-$shake-intensity: 1%;
-@mixin wizzle {
-     :hover {
-        // animation-iteration-count est directement intégré dans la propriété raccourcie animation:
-        animation: headshake 100ms cubic-bezier(.4, .1, .6, .9) 5;
-    }
-}
-
-@keyframes headshake {
-    25% {
-        // entièrement à droite
-        transform: translateX($shake-intensity);
-    }
-    75% {
-        // entièrement à gauche
-        transform: translateX($shake-intensity * -1);
-    }
-}
+ @font-face {
+     font-family: 'croissant_oneregular';
+     src: url('fonts/croissantone-regular-webfont.woff2') format('woff2'), url('fonts/croissantone-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'flow_extregular';
+     src: url('fonts/flow/flow-webfont.woff2') format('woff2'), url('fonts/flow/flow-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'flow_extbold';
+     src: url('fonts/flow/flow_b-webfont.woff2') format('woff2'), url('fonts/flow/flow_b-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'devonshireregular';
+     src: url('fonts/devonshire/devonshire-regular-webfont.woff2') format('woff2'), url('fonts/devonshire/devonshire-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'perspective_sans_blackregular';
+     src: url('fonts/persanbk-webfont.eot');
+     src: url('fonts/persanbk-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/persanbk-webfont.woff2') format('woff2'), url('fonts/persanbk-webfont.woff') format('woff'), url('fonts/persanbk-webfont.ttf') format('truetype'), url('fonts/persanbk-webfont.svg#perspective_sans_blackregular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'sinkin_sans200_x_light';
+     src: url('fonts/SinkinSans-200XLight-webfont.eot');
+     src: url('fonts/SinkinSans-200XLight-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/SinkinSans-200XLight-webfont.woff2') format('woff2'), url('fonts/SinkinSans-200XLight-webfont.woff') format('woff'), url('fonts/SinkinSans-200XLight-webfont.ttf') format('truetype'), url('fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'sinkin_sans100_thin';
+     src: url('fonts/SinkinSans-100Thin-webfont.eot');
+     src: url('fonts/SinkinSans-100Thin-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/SinkinSans-100Thin-webfont.woff2') format('woff2'), url('fonts/SinkinSans-100Thin-webfont.woff') format('woff'), url('fonts/SinkinSans-100Thin-webfont.ttf') format('truetype'), url('fonts/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ $color-menu1: #579c87;
+ $color-font: #fdcd46;
+ $color_menu_1: #3D1319;
+ $color_fond_1: #FDE0DC;
+ @mixin gradient_menu1 {
+     background: linear-gradient(#F04C5F, #F6916A);
+ }
+ /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
+ 
+ $color-menu_2: #FFF5FE;
+ $color_menu_22: #B55AA2;
+ $color_menu_23: #6E4CCC;
+ $color_menu_24:#C77412;
+ @mixin gradient_menu2 {
+     background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ /* MIxin et couleur pour le menu 2 internes et externe*/
+ 
+ $color_fond_3: #EDEFEF;
+ $color_font_3: #0889FB;
+ @mixin gradient_menu3 {
+     background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ /* COuleur et mixin pour le menu 3  */
+ 
+ $color_menu_4: #72BF56;
+ $color_fond_4: #fbfffb;
+ @mixin gradient_menu4 {
+     background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ /*mixins et couleur pour menu 4 */
+ /* mixin animation*/
+ 
+ @mixin Grow {
+      :hover {
+         transform: scale(1.25);
+         transition: transform 330ms ease-in-out;
+     }
+ }
+ 
+ $shake-intensity: 1%;
+ @mixin wizzle {
+      :hover {
+         // animation-iteration-count est directement intégré dans la propriété raccourcie animation:
+         animation: headshake 100ms cubic-bezier(.4, .1, .6, .9) 5;
+     }
+ }
+ 
+ @keyframes headshake {
+     25% {
+         // entièrement à droite
+         transform: translateX($shake-intensity);
+     }
+     75% {
+         // entièrement à gauche
+         transform: translateX($shake-intensity * -1);
+     }
+ }

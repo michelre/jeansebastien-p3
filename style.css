@@ -332,6 +332,10 @@ body {
   margin: 10px 40px 10px 40px;
   padding-bottom: 10px;
 }
+.menus .ligne .menu :hover {
+  transform: scale(1.25);
+  transition: transform 330ms ease-in-out;
+}
 .menus .ligne .menu a {
   display: flex;
   flex-direction: column;
@@ -483,80 +487,5 @@ body {
     width: 300px;
   }
 }
-/*  .menus {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 100px;
-        padding-bottom: 120px;
-        justify-content: center;
-        align-items: center;
-        .new {
-            display: flex;
-            color: $color-font;
-            background-color: $color-menu1;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            padding: 10px;
-            h3 {
-                margin: 0 0 0 0;
-            }
-        }
-        .ligne {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0px 0px 0px 0px;
-            .menu {
-                display: flex;
-                justify-content: center;
-                width: 25em;
-                height: 30em;
-                background-color: lightgray;
-                box-shadow: 10px 5px 5px grey;
-                margin: 10px 40px 20px 40px;
-                max-width: 300px;
-                a {
-                    display: flex;
-                    flex-direction: column;
-                    text-decoration: none;
-                    color: black;
-                    height: 100%;
-                    width: 100%;
-                    justify-content: center;
-                    align-items: center;
-                    .menu1 {
-                        display: flex;
-                        width: 50%;
-                        justify-content: center;
-                    }
-                    .menu2 {
-                        display: flex;
-                        width: 50%;
-                        justify-content: center;
-                    }
-                    .menu3 {
-                        display: flex;
-                        width: 50%;
-                        justify-content: center;
-                    }
-                    .menu4 {
-                        display: flex;
-                        width: 50%;
-                        justify-content: center;
-                    }
-                    P {
-                        display: flex;
-                        width: 50%;
-                        justify-content: center;
-                        ;
-                    }
-                }
-            }
-        }
-    }
-}*/
 
 /*# sourceMappingURL=style.css.map */
