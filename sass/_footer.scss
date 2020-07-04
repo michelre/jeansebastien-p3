@@ -15,6 +15,7 @@
     .mentions {
         display: flex;
         padding: 10px 30px 10px 30px;
+        @include wizzle;
         a {
             text-decoration: none;
             color: $color-font;
@@ -25,6 +26,7 @@
         display: flex;
         padding: 10px 30px 10px 30px;
         margin: 0 0 0 0;
+        @include wizzle;
         a {
             text-decoration: none;
             color: $color-font;

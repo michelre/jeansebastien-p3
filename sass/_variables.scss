@@ -104,3 +104,22 @@ $color_fond_4: #fbfffb;
         transform: scale(1.25);
     }
 }
+
+$shake-intensity: 1%;
+@mixin wizzle {
+     :hover {
+        // animation-iteration-count est directement intégré dans la propriété raccourcie animation:
+        animation: headshake 100ms cubic-bezier(.4, .1, .6, .9) 5;
+    }
+}
+
+@keyframes headshake {
+    25% {
+        // entièrement à droite
+        transform: translateX($shake-intensity);
+    }
+    75% {
+        // entièrement à gauche
+        transform: translateX($shake-intensity * -1);
+    }
+}

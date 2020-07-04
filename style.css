@@ -49,6 +49,14 @@
 /* COuleur et mixin pour le menu 3  */
 /*mixins et couleur pour menu 4 */
 /* mixin animation*/
+@keyframes headshake {
+  25% {
+    transform: translateX(1%);
+  }
+  75% {
+    transform: translateX(-1%);
+  }
+}
 .titre {
   width: 100%;
   display: flex;
@@ -126,6 +134,14 @@
 /* COuleur et mixin pour le menu 3  */
 /*mixins et couleur pour menu 4 */
 /* mixin animation*/
+@keyframes headshake {
+  25% {
+    transform: translateX(1%);
+  }
+  75% {
+    transform: translateX(-1%);
+  }
+}
 .pieds {
   font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -144,6 +160,9 @@
   display: flex;
   padding: 10px 30px 10px 30px;
 }
+.pieds .mentions :hover {
+  animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
+}
 .pieds .mentions a {
   text-decoration: none;
   color: #fdcd46;
@@ -153,6 +172,9 @@
   display: flex;
   padding: 10px 30px 10px 30px;
   margin: 0 0 0 0;
+}
+.pieds .contact :hover {
+  animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 5;
 }
 .pieds .contact a {
   text-decoration: none;
@@ -209,6 +231,14 @@
 /* COuleur et mixin pour le menu 3  */
 /*mixins et couleur pour menu 4 */
 /* mixin animation*/
+@keyframes headshake {
+  25% {
+    transform: translateX(1%);
+  }
+  75% {
+    transform: translateX(-1%);
+  }
+}
 body {
   margin: 0 0 0 0;
   font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
@@ -374,9 +404,10 @@ body {
 
 .container {
   width: 50%;
-  margin: 40px auto 100px auto;
+  padding-bottom: 70px;
+  margin: 40px auto 160px auto;
   max-width: 700px;
-  min-height: 950px;
+  min-height: 800px;
 }
 
 .container--menu1 {
