@@ -48,6 +48,7 @@
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
 /*mixins et couleur pour menu 4 */
+/* mixin animation*/
 .titre {
   width: 100%;
   display: flex;
@@ -124,6 +125,7 @@
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
 /*mixins et couleur pour menu 4 */
+/* mixin animation*/
 .pieds {
   font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -206,6 +208,7 @@
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
 /*mixins et couleur pour menu 4 */
+/* mixin animation*/
 body {
   margin: 0 0 0 0;
   font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
@@ -372,7 +375,8 @@ body {
 .container {
   width: 50%;
   margin: 40px auto 100px auto;
-  max-width: 800px;
+  max-width: 700px;
+  min-height: 950px;
 }
 
 .container--menu1 {
@@ -421,6 +425,7 @@ body {
 .platprix .nom_plat {
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 .platprix .nom_plat p {
   margin: 1em 1em 0 1em;
@@ -429,7 +434,7 @@ body {
 .platprix .prix {
   display: flex;
   margin-top: 1em;
-  min-width: 10%;
+  min-width: 50px;
 }
 
 /* DEVELOPPEMENT MOBILE*/

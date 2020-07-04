@@ -95,3 +95,12 @@ $color_fond_4: #fbfffb;
 
 
 /*mixins et couleur pour menu 4 */
+
+
+/* mixin animation*/
+
+@mixin Grow {
+     :hover {
+        transform: scale(1.25);
+    }
+}

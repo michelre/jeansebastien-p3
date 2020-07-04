@@ -163,7 +163,8 @@
     .container {
         width: 50%;
         margin: 40px auto 100px auto;
-        max-width: 800px;
+        max-width: 700px;
+        min-height: 950px;
     }
     
     .container--menu1 {
@@ -211,6 +212,7 @@
         .nom_plat {
             display: flex;
             width: 100%;
+            justify-content: space-between;
             p {
                 margin: 1em 1em 0 1em;
                 width: 80%;
@@ -219,7 +221,7 @@
         .prix {
             display: flex;
             margin-top: 1em;
-            min-width: 10%;
+            min-width: 50px;
         }
     }
     /* DEVELOPPEMENT MOBILE*/
