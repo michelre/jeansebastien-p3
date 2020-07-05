@@ -545,13 +545,22 @@ body {
   font-size: 25px;
 }
 .container--menu2 .first {
-  color: #B55AA2;
+  color: #C77412;
+}
+.container--menu2 .first p {
+  color: #C77412;
 }
 .container--menu2 .second {
-  color: #6E4CCC;
+  color: #B55AA2;
+}
+.container--menu2 .second p {
+  color: #B55AA2;
 }
 .container--menu2 .third {
-  color: #C77412;
+  color: #6E4CCC;
+}
+.container--menu2 .third p {
+  color: #6E4CCC;
 }
 
 .container--menu3 {

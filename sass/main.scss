@@ -231,13 +231,22 @@
             font-size: 25px;
         }
         .first {
-            color: $color_menu_22;
+            color: $color_menu_24;
+            p {
+                color: $color_menu_24;
+            }
         }
         .second {
-            color: $color_menu_23;
+            color: $color_menu_22;
+            p {
+                color: $color_menu_22;
+            }
         }
         .third {
-            color: $color_menu_24;
+            color: $color_menu_23;
+            p {
+                color: $color_menu_23;
+            }
         }
         /* p {
                     @include gradient_menu2;
