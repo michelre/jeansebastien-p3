@@ -76,6 +76,40 @@
     transform: translateX(-1%);
   }
 }
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #fdcd46;
+  display: inline-block;
+  margin: 0.5rem;
+  animation: scaling 2.5s ease-in-out infinite;
+}
+
+@keyframes scaling {
+  0%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
 .titre {
   width: 100%;
   display: flex;
@@ -180,6 +214,40 @@
     transform: translateX(-1%);
   }
 }
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #fdcd46;
+  display: inline-block;
+  margin: 0.5rem;
+  animation: scaling 2.5s ease-in-out infinite;
+}
+
+@keyframes scaling {
+  0%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
 .pieds {
   font-family: sinkin_sans100_thin, sinkin_sans200_x_light, Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -296,6 +364,40 @@
     transform: translateX(-1%);
   }
 }
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  transform: scale(0);
+  background-color: #fdcd46;
+  display: inline-block;
+  margin: 0.5rem;
+  animation: scaling 2.5s ease-in-out infinite;
+}
+
+@keyframes scaling {
+  0%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+.dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
 body {
   margin: 0 0 0 0;
   font-family: perspective_sans_blackregular, Arial, Helvetica, sans-serif;
@@ -530,9 +632,11 @@ body {
 .container--menu2 .prix {
   font-family: "serif12_betabold";
   font-size: 20px;
+  font-weight: 500;
 }
 .container--menu2 p {
   font-family: "serif12_betabold";
+  font-weight: 500;
 }
 .container--menu2 .titre__menu {
   font-family: "croissant_oneregular";
@@ -603,16 +707,6 @@ body {
 
 .container--menu4 {
   background-color: #fbfffb;
-  /* p {
-              @include gradient_menu4;
-              font-family: 'kaushan_scriptregular';
-              font-size: 25px;
-          }
-          .menu4 {
-              color: $color_menu_4;
-              font-family: 'flow_extbold';
-              font-size: 35px;
-          }*/
 }
 .container--menu4 .prix {
   font-family: "flow_extbold";

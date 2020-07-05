@@ -215,9 +215,11 @@
         .prix {
             font-family: 'serif12_betabold';
             font-size: 20px;
+            font-weight: 500;
         }
         p {
             font-family: 'serif12_betabold';
+            font-weight: 500;
         }
         .titre__menu {
             font-family: 'croissant_oneregular';
@@ -314,16 +316,6 @@
             font-size: 25px;
             font-weight: lighter;
         }
-        /* p {
-                    @include gradient_menu4;
-                    font-family: 'kaushan_scriptregular';
-                    font-size: 25px;
-                }
-                .menu4 {
-                    color: $color_menu_4;
-                    font-family: 'flow_extbold';
-                    font-size: 35px;
-                }*/
     }
     
     .parti_menu--dessert {
