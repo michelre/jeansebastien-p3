@@ -56,6 +56,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "kaushan_scriptregular";
+  src: url("fontsKaushanscriptkaushanscript-regular-webfont.woff2") format("woff2"), url("fontsKaushanscriptkaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
@@ -150,6 +156,12 @@
 @font-face {
   font-family: "serif12_betabold";
   src: url("fontsSerif12 beta boldserif12beta-bold-webfont.woff2") format("woff2"), url("fontsSerif12 beta boldserif12beta-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "kaushan_scriptregular";
+  src: url("fontsKaushanscriptkaushanscript-regular-webfont.woff2") format("woff2"), url("fontsKaushanscriptkaushanscript-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -262,6 +274,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "kaushan_scriptregular";
+  src: url("fontsKaushanscriptkaushanscript-regular-webfont.woff2") format("woff2"), url("fontsKaushanscriptkaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Gradient couleur du menu 1 ensemble des couluers dédié au menu 1*/
 /* MIxin et couleur pour le menu 2 internes et externe*/
 /* COuleur et mixin pour le menu 3  */
@@ -362,9 +380,13 @@ body {
   background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "kaushan_scriptregular";
+  font-size: 25px;
 }
 .menus .ligne .menu--fourth .menu4 {
   color: #72BF56;
+  font-family: "flow_extbold";
+  font-size: 35px;
 }
 .menus .ligne .menu {
   display: flex;
@@ -461,17 +483,144 @@ body {
 .container--menu1 {
   background-color: #FDE0DC;
 }
+.container--menu1 .prix {
+  font-family: "flow_extbold";
+  font-size: 20px;
+}
+.container--menu1 p {
+  font-family: "flow_extbold";
+  color: #3D1319;
+}
+.container--menu1 .titre__menu {
+  font-family: "devonshireregular";
+  color: #3D1319;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.container--menu1 h2 {
+  font-family: "flow_extbold";
+  font-weight: bold;
+  color: #3D1319;
+  font-size: 25px;
+}
+.container--menu1 .titre__menu2 {
+  font-family: "devonshireregular";
+  color: #3D1319;
+  font-size: 40px;
+  font-weight: lighter;
+}
 
 .container--menu2 {
   background-color: #FFF5FE;
+  /* p {
+              @include gradient_menu2;
+              font-family: 'croissant_oneregular';
+              font-size: 17px;
+          }
+          .menu2 {
+              color: $color_menu_24;
+              font-family: 'serif12_betabold';
+              font-weight: bolder;
+              font-size: xx-large;
+          }*/
+}
+.container--menu2 .prix {
+  font-family: "serif12_betabold";
+  font-size: 20px;
+}
+.container--menu2 p {
+  font-family: "serif12_betabold";
+}
+.container--menu2 .titre__menu {
+  font-family: "croissant_oneregular";
+  background: linear-gradient(to left, #8F5AFF 0%, #C77412 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: lighter;
+}
+.container--menu2 h2 {
+  font-family: "serif12_betabold";
+  font-weight: bold;
+  font-size: 25px;
+}
+.container--menu2 .first {
+  color: #B55AA2;
+}
+.container--menu2 .second {
+  color: #6E4CCC;
+}
+.container--menu2 .third {
+  color: #C77412;
 }
 
 .container--menu3 {
   background-color: #EDEFEF;
+  /* p {
+              @include gradient_menu3;
+              font-family: 'dancing_script_otregular';
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .menu3 {
+              color: $color_font_3;
+              font-family: 'flow_extbold';
+              font-size: 35px;
+          }*/
+}
+.container--menu3 .prix {
+  font-family: "flow_extbold";
+  font-size: 20px;
+}
+.container--menu3 p {
+  font-family: "flow_extbold";
+}
+.container--menu3 .titre__menu {
+  font-family: "dancing_script_otregular";
+  background: linear-gradient(to right, #0022DB 0%, #0889FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.container--menu3 h2 {
+  font-family: "flow_extbold";
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .container--menu4 {
   background-color: #fbfffb;
+  /* p {
+              @include gradient_menu4;
+              font-family: 'kaushan_scriptregular';
+              font-size: 25px;
+          }
+          .menu4 {
+              color: $color_menu_4;
+              font-family: 'flow_extbold';
+              font-size: 35px;
+          }*/
+}
+.container--menu4 .prix {
+  font-family: "flow_extbold";
+  font-size: 20px;
+}
+.container--menu4 p {
+  font-family: "flow_extbold";
+}
+.container--menu4 .titre__menu {
+  font-family: "kaushan_scriptregular";
+  background: linear-gradient(to right, #479C40 0%, #BEFF7F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-weight: lighter;
+}
+.container--menu4 h2 {
+  font-family: "flow_extbold";
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .parti_menu--dessert {

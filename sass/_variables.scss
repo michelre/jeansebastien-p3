@@ -64,6 +64,13 @@
      font-style: normal;
  }
  
+ @font-face {
+     font-family: 'kaushan_scriptregular';
+     src: url('fonts\Kaushanscriptkaushanscript-regular-webfont.woff2') format('woff2'), url('fonts\Kaushanscriptkaushanscript-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
  $color-menu1: #579c87;
  $color-font: #fdcd46;
  $color_menu_1: #3D1319;
