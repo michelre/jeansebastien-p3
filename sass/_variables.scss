@@ -66,8 +66,7 @@
  
  @font-face {
      font-family: 'kaushan_scriptregular';
-     src: url('fonts\Kaushanscript\kaushanscript-regular-webfont.eot');
-     src: url('fonts\Kaushanscript\kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts\Kaushanscript\kaushanscript-regular-webfont.woff2') format('woff2'), url('fonts\Kaushanscript\kaushanscript-regular-webfont.woff') format('woff'), url('fonts\Kaushanscript\kaushanscript-regular-webfont.ttf') format('truetype'), url('fonts\Kaushanscript\kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+     src: url('fonts/Kaushanscript/KaushanScript-Regular.ttf') format('truetype');
      font-weight: normal;
      font-style: normal;
  }
@@ -143,6 +142,11 @@
      }
  }
  
+ .soon {
+     text-decoration: none;
+     color: $color-font;
+ }
+ 
  .dot {
      height: 10px;
      width: 10px;
@@ -151,9 +155,7 @@
      background-color: $color-font;
      display: inline-block;
      margin: .5rem;
-      :hover & .wave {
-         animation: scaling 2.5s ease-in-out infinite;
-     }
+     animation: scaling 2.5s ease-in-out infinite;
  }
  
  @keyframes scaling {

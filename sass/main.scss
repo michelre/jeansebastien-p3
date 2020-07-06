@@ -98,7 +98,11 @@
                 box-shadow: 1px 1px 12px grey;
                 margin: 10px 40px 10px 40px;
                 padding-bottom: 10px;
-                @include Grow;
+                &:hover {
+                    a {
+                        transform: scale(1.25);
+                    }
+                }
                 a {
                     display: flex;
                     flex-direction: column;
@@ -107,6 +111,7 @@
                     width: 100%;
                     justify-content: center;
                     align-items: center;
+                    transition: transform 330ms ease-in-out;
                     .menu1 {
                         display: flex;
                         width: 50%;
