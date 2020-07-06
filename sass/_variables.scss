@@ -151,7 +151,9 @@
      background-color: $color-font;
      display: inline-block;
      margin: .5rem;
-     animation: scaling 2.5s ease-in-out infinite;
+      :hover & .wave {
+         animation: scaling 2.5s ease-in-out infinite;
+     }
  }
  
  @keyframes scaling {

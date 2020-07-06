@@ -84,6 +84,8 @@
   background-color: #fdcd46;
   display: inline-block;
   margin: 0.5rem;
+}
+:hover .dot .wave {
   animation: scaling 2.5s ease-in-out infinite;
 }
 
@@ -222,6 +224,8 @@
   background-color: #fdcd46;
   display: inline-block;
   margin: 0.5rem;
+}
+:hover .dot .wave {
   animation: scaling 2.5s ease-in-out infinite;
 }
 
@@ -372,6 +376,8 @@
   background-color: #fdcd46;
   display: inline-block;
   margin: 0.5rem;
+}
+:hover .dot .wave {
   animation: scaling 2.5s ease-in-out infinite;
 }
 
